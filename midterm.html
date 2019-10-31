@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pokemon Visualization</title>
+    <meta name="author" content="Elisa Truong" />
+    <meta name="description" content="Pokemon Visualization for INFO 474 midterm" />
+    <link rel="stylesheet" type="text/css" href="midterm.css">
+</head>
+
+<body>
+    <h1>Midterm - Pokemon Visualization</h1>
+    <h2>Pokemon: Special Defense VS Total Stats</h2>
+    <div>
+        <!-- Filter by generation -->
+        <label for="generation">Generation: </label>
+        <select id="generation"></select>
+
+        <!-- Filter by legendary -->
+        <label for="legendary">Legendary?: </label>
+        <select id="legendary"></select>
+        <!-- <input id="true-legendary" type="checkbox" name="legendary" value="legendary" />
+        <label for="true-legendary">True: </label>
+        
+        <input id="false-legendary" type="checkbox" name="legendary" value="nonLegendary" />
+        <label for="false-legendary">False</label>
+        
+        <input id="all-legendary" type="checkbox" name="legendary" value="all" />
+        <label for="all-legendary">All</label> -->
+    </div>
+
+    <div id="vis"></div>
+    <div id="legend-container">
+        <h3>Legend</h3>
+        <div id="legend"></div>
+    </div>
+
+    <!-- Script files -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="midterm.js"></script>
+</body>
+
+</html>

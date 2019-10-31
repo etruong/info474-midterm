@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: left;			
+    width: 120px;					
+    height: 40px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background-color: white;	
+    border: 1px black solid;			
+    pointer-events: none;	
+    cursor: pointer;
+    padding: 5px;		
+}
+
+#vis {
+    float: left;
+    margin-top: 30px;
+}
+
+#legend-container {
+    border: 0.5px solid black;
+    width: 10%;
+    float: left;
+    padding: 20px;
+    height: 450px;
+    margin-left: 20px;
+}
