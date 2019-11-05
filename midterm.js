@@ -175,8 +175,9 @@ function createHover(points) {
             tooltip.transition()
                 .duration(200)
                 .style("opacity", 1)
-            tooltip.html("<p class=\"tool-tip-style\">" + content.Name + "<br />" + 
-                content["Type 1"] + "<br />" + content["Type 2"] + "</p>")
+            tooltip.html("<p>" + content.Name + "<br />" + 
+                content["Type 1"] + "<br />" + 
+                content["Type 2"] + "</p>")
                 .style("left", (d3.event.pageX) + "px")		
                 .style("top", (d3.event.pageY - 28) + "px");	
         })
